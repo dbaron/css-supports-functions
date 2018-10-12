@@ -35,7 +35,17 @@ It is worth noting that this usage requires that the `selector()` feature query 
 
 Other than this, the function should work just as the tests for support/validity work in the [rules on handling invalid selectors](https://drafts.csswg.org/selectors-4/#invalid).
 
+## `@font-family` descriptors
+
+See [#2463 Feature detection for descriptors](https://github.com/w3c/csswg-drafts/issues/2463).
+
 ## CSS Rules
 
 * does putting rules inside `@supports` conditions cause grammar problems?  readability problems?
 * how useful is it?
+
+## Issues
+
+* feature query function for selectors
+* [feature query function for descriptors](https://github.com/w3c/csswg-drafts/issues/2463)
+* feature query function for rules
