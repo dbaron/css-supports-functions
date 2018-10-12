@@ -46,6 +46,6 @@ See [#2463 Feature detection for descriptors](https://github.com/w3c/csswg-draft
 
 ## Issues
 
-* feature query function for selectors
+* [#3207 feature query function for selectors](https://github.com/w3c/csswg-drafts/issues/3207)
 * [#2463 feature query function for descriptors](https://github.com/w3c/csswg-drafts/issues/2463)
 * feature query function for rules
