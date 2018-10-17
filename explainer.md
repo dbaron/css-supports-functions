@@ -22,7 +22,7 @@ One of its deficiencies is that it only allows testing support for CSS features 
 
 Having feature queries based on selectors is probably the highest priority addition, both because it seems the most likely to be important in the near future, and because it is the simplest.  It has come up recently because CSS authors using the features in the [CSS Scrollbars Module Level 1](https://drafts.csswg.org/css-scrollbars-1/) may want to query for support of those features, and may also want to query for support of the `::-webkit-scrollbar` pseudo-element.
 
-I believe a possible syntax for such a feature was discussed at one point early in the development of `@supports`, but I can't find meeting minutes of the discussion.  I think the best way to extend the syntax is using a `selector()` function, as in:
+I believe a possible syntax for such a feature was discussed at one point early in the development of `@supports`, but I can't find meeting minutes of the discussion.  I think the best way to extend the syntax is using a `selector()` function taking [`<complex-selector>`](https://drafts.csswg.org/selectors-4/#complex) as an argument, as in:
 
 ```css
 @supports (scrollbar-width: thin) or selector(::-webkit-scrollbar) {
